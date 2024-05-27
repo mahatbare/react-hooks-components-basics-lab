@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./About";
 
 function NavBar() {
   return (
@@ -16,15 +17,13 @@ function Home() {
   );
 }
 
-{/* write an <About> component here */}
-
 
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
